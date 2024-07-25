@@ -1,0 +1,88 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &8364223612344834919
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8364223612344834917}
+  - component: {fileID: 8364223612344834916}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8364223612344834917
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8364223612344834919}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1416.9895, y: 447.54776, z: -121.995445}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8364223612344834916
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8364223612344834919}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 60e3cec38784bdb42976975336cb9404, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: TakenPhoto
+    clip: {fileID: 8300000, guid: 32a98f4c5afcc8949a8830e9333f4987, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CameraZoom
+    clip: {fileID: 8300000, guid: 0383dfbef1a05af48b76c64ed673340c, type: 3}
+    volume: 0.59
+    pitch: 2.5
+    loop: 0
+    source: {fileID: 0}
+  - name: CameraEffects
+    clip: {fileID: 8300000, guid: d77680927fd65cc4284620bdd606cb40, type: 3}
+    volume: 0.652
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: CameraMoving
+    clip: {fileID: 8300000, guid: 4101e5d4db58f504f9417b66fc589dfe, type: 3}
+    volume: 0.82
+    pitch: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: Album
+    clip: {fileID: 8300000, guid: 518113ab8ade7024a946bd1275c350d0, type: 3}
+    volume: 0.54
+    pitch: 1.27
+    loop: 0
+    source: {fileID: 0}
+  - name: Jump
+    clip: {fileID: 8300000, guid: f7a0bd9a6d8f27d44a33e2fb91f5c54a, type: 3}
+    volume: 1
+    pitch: 1
+    loop: 0
+    source: {fileID: 0}
+  - name: Song
+    clip: {fileID: 8300000, guid: b3f35ac342732354baebff431d7b4ff4, type: 3}
+    volume: 0.309
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
